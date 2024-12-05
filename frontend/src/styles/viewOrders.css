@@ -1,0 +1,34 @@
+.view-orders-page {
+    padding: 20px;
+    text-align: center;
+}
+
+.orders-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.order-card {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.order-card h2 {
+    margin: 0 0 10px;
+}
+
+.order-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+.order-card li {
+    margin-bottom: 5px;
+}

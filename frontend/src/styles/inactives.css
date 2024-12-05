@@ -1,0 +1,50 @@
+.inactives-page {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.menu-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu-button.active {
+    background-color: #ffcc00;
+    font-weight: bold;
+}
+
+.inactive-list {
+    list-style: none;
+    padding: 0;
+}
+
+.inactive-item {
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inactive-item button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}

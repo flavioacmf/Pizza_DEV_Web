@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ffecec; /* Cor de fundo */
+}
+
+.main-menu {
+    display: flex;
+    height: 100vh;
+}
+
+/* Barra lateral esquerda */
+.menu-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Mantém as opções no topo e o botão "Sair" no meio */
+    align-items: flex-start;
+    background-color: #ffcc00; /* Amarelo */
+    width: 250px; /* Largura fixa */
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Opções no topo da barra lateral */
+.menu-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px; /* Ajusta a distância do topo */
+}
+
+.menu-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    background-color: #ffcc00; /* Amarelo */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+    text-align: left;
+}
+
+.menu-button:hover {
+    transform: scale(1.05);
+    background-color: #ff9900; /* Amarelo escuro */
+}
+
+/* Botão de sair centralizado na barra lateral */
+.logout-container {
+    display: flex;
+    justify-content: center;
+    margin-top: auto; /* Garante que o botão fica no centro vertical */
+}
+
+.logout-button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    background-color: #ff0000; /* Vermelho */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #cc0000; /* Vermelho mais escuro */
+}
+
+/* Logo centralizada no meio da página */
+.logo-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffecec; /* Cor do fundo */
+}
+
+.main-logo {
+    max-width: 300px;
+    height: auto;
+}
